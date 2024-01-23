@@ -7,7 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "format": "npx prettier -w ."
+    "format": "prettier -w .",
+    "ts-check": "npx tsc --noEmit --skipLibCheck",
+    "commit": "npx gitmoji-cli -c"
   },
   "private": true,
   "dependencies": {
